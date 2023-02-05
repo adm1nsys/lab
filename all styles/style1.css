@@ -1,0 +1,65 @@
+@keyframes rotate {
+	100% {
+		transform: rotate(1turn);
+	}
+}
+
+.header {
+	position: relative;
+	z-index: 0;
+	width: 840px;
+	height: 100px;
+	margin: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	top: 15px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px black;
+	color: black;
+
+	}
+.header::before {
+		content: '';
+		position: absolute;
+		z-index: -2;
+		top: -400%;
+		width: 100%;
+		height: 840px;
+		background-repeat: no-repeat;
+		background-image: conic-gradient(transparent, rgba(251, 251, 251, 1), transparent 30%);
+		animation: rotate 3s linear infinite;
+	}
+	
+	.header::after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		left: 6px;
+		top: 6px;
+		width: calc(100% - 12px);
+		height: calc(100% - 12px);
+		border-radius: 10px;
+		background-color: white;
+	}
+}
+
+@keyframes opacityChange {
+	50% {
+		opacity:.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.a1{
+	display: flex;
+	position: inherit;
+	padding-top: 35px;
+	padding-left: 30px;
+	font-size: 20px;
+	width: 100%;
+	height: 100%;
+}
