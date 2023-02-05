@@ -58,7 +58,11 @@ body{
 
 /* right1 - контеейнер который позицианируется */
 .right1{
+    width: 49%;
 	text-align: left;
 	margin-left: auto;
+	display: flex;
+	position: relative;
+	right: 0%;
 	line-height: 30px;
 }
