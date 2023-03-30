@@ -53,7 +53,7 @@ body{
 	display: flex;
 	position: relative;
 	text-align: left;
-	line-height: 30px;
+	line-height: 150%;
 }
 
 /* right1 - контеейнер который позицианируется */
@@ -64,5 +64,5 @@ body{
 	display: flex;
 	position: relative;
 	right: 0%;
-	line-height: 30px;
+	line-height: 150%;
 }
