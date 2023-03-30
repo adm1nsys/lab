@@ -50,7 +50,7 @@ body{
 
 /* right - контейнер для right1 */
 .right{
-	display: flex;
+	display: relative;
 	position: relative;
 	text-align: left;
 	line-height: 150%;
@@ -61,7 +61,7 @@ body{
     width: 49%;
 	text-align: left;
 	margin-left: auto;
-	display: flex;
+	display: relative;
 	position: relative;
 	right: 0%;
 	line-height: 150%;
